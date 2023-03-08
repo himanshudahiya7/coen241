@@ -44,6 +44,5 @@ class BinaryTreeTopo( Topo ):
 	self.addLink(s2,s1)
 	self.addLink(s5,s1)
 	
-
 topos = { 'binary_tree': ( lambda: BinaryTreeTopo() ) }
 
