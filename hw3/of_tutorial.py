@@ -113,7 +113,6 @@ class Tutorial (object):
     #self.act_like_switch(packet, packet_in)
 
 
-
 def launch ():
   """
   Starts the component
