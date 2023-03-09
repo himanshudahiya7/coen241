@@ -99,7 +99,8 @@ class Tutorial (object):
     """
     Handles packet in messages from the switch.
     """
-
+    
+    #log.info("Traffic observed at switch %s" %(self.connection))
     packet = event.parsed # This is the parsed packet data.
     if not packet.parsed:
       log.warning("Ignoring incomplete packet")
